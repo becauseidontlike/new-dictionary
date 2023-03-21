@@ -9,7 +9,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-      <footer className="text-center footer">Coded by WP</footer>
+      <footer className="text-center footer">Coded by WP, access on <a href="https://github.com/becauseidontlike/new-dictionary">Github</a></footer>
       </div>
       
     </div>

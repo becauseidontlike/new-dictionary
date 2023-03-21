@@ -29,6 +29,9 @@ function handleKeyword(event) {
             <form onSubmit={search}>
                 <input type="search" autoFocus={true} onChange={handleKeyword} />
             </form>
+            <div className="hint">
+                What are you looking for today?
+            </div>
             </section>
             <Result results={results} />
         </div>
