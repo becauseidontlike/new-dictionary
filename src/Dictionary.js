@@ -36,9 +36,9 @@ search();
 if (loaded) {
     return (
         <div className="Dictionary">
-            <section>
+            <section className="searchEngine">
             <form onSubmit={handleSubmit}>
-                <input type="search" autoFocus={true} onChange={handleKeyword} />
+                <input type="search" autoFocus={true} onChange={handleKeyword} defaultValue={props.default} />
             </form>
             <div className="hint">
                 What are you looking for today?

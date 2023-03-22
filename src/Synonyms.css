@@ -1,0 +1,8 @@
+.Synonyms ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Synonyms li {
+    display: inline;
+}

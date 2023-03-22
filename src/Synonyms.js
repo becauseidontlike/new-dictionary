@@ -9,8 +9,7 @@ if (props.synonyms)  {
            <ul>
             {props.synonyms.map(function(synonym, index) {
                 return (
-                   
-                   <li key={index}>
+                    <li key={index}>
                     {synonym}
                     </li>
                 )
