@@ -17,6 +17,9 @@ setResults(response.data[0]);
 function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
+
+    let pexelsApikey= "fmKiQNIw53wLZE2sywuJV8HWwJwMTm0HOm8KFLmrDlulrmJSRQBPGxGf";
+    let pexelsApiurl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`; 
 }
 
 function handleSubmit(event) {

@@ -6,6 +6,11 @@ a {
   color: rgb(236, 162, 2);
 }
 
+.App {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
 .fa-solid {
   font-size: 30px;
 }
